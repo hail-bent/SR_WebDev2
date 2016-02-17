@@ -1,0 +1,5 @@
+h1 {
+     text-align: center; /* center the text in the element */
+     color: #ccc; /* turns the text gray in the element */
+     font-variant: small-caps; /* creates an small capitals effect on the text in the element */
+}
