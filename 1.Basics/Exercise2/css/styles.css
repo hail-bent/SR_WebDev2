@@ -1,0 +1,41 @@
+.tm {
+    vertical-align: text-top;
+    font-size: 5px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+/* Overlay */
+
+.overlay-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.overlay-caption {
+    opacity: 0;
+}
+
+.overlay-content {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: right;
+	padding-right: 25px;
+}
+
+.overlay-box:hover .overlay-caption {
+    opacity: 1;
+}
+
+.hidden {
+	display: hidden;
+}
+
+footer {
+    margin: 40px 0;
+}
